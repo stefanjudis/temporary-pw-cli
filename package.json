@@ -1,0 +1,31 @@
+{
+  "name": "temporary-pw-cli",
+  "version": "1.0.0",
+  "description": "",
+  "bin": {
+    "temporary-pw": "./cli.js"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/stefanjudis/temporary-pw-cli.git"
+  },
+  "keywords": [],
+  "author": "stefan judis <stefanjudis@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/stefanjudis/temporary-pw-cli/issues"
+  },
+  "homepage": "https://github.com/stefanjudis/temporary-pw-cli#readme",
+  "dependencies": {
+    "clipboardy": "^2.0.0",
+    "form-data": "^2.3.3",
+    "got": "^9.6.0",
+    "meow": "^5.0.0"
+  },
+  "devDependencies": {
+    "jest": "^24.8.0"
+  }
+}
